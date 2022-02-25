@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClimbCalculator", "ClimbCalculator\ClimbCalculator.csproj", "{291244A4-3684-4E63-B66A-B8EF9DBD9601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClimbCalculator.Tests", "ClimbCalculator.Tests\ClimbCalculator.Tests.csproj", "{550648CF-21A3-4914-A907-D5DF99E486A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{291244A4-3684-4E63-B66A-B8EF9DBD9601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291244A4-3684-4E63-B66A-B8EF9DBD9601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291244A4-3684-4E63-B66A-B8EF9DBD9601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291244A4-3684-4E63-B66A-B8EF9DBD9601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550648CF-21A3-4914-A907-D5DF99E486A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550648CF-21A3-4914-A907-D5DF99E486A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550648CF-21A3-4914-A907-D5DF99E486A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550648CF-21A3-4914-A907-D5DF99E486A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
