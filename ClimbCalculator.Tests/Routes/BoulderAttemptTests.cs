@@ -43,4 +43,13 @@ public class BoulderAttemptTests
         
         Assert.False(actual);
     }
+    
+    [Theory, InlineData(4,6)]
+    public void IsBoulderCompleted_BoulderExperience_GreaterThanBoulderDifficulty_NumberOfCrashPads_LessThan_RequiredCrashPads_Returns_False(int difficulty, int requiredCrashPads)
+    {
+        var subject = new BoulderAttempt(difficulty,"Into The Light", requiredCrashPads, FakeBoulderers[1]);
+        var actual = subject.IsBoulderCompleted();
+        
+        Assert.False(actual);
     }
+}

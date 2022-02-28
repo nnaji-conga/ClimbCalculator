@@ -10,5 +10,6 @@
     &lt;TestId&gt;xUnit::550648CF-21A3-4914-A907-D5DF99E486A2::net6.0::ClimbCalculator.Tests.Routes.ClimbAttemptTests.IsClimbCompleted_ClimberExperience_GreaterThanDifficulty_Returns_False&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::550648CF-21A3-4914-A907-D5DF99E486A2::net6.0::ClimbCalculator.Tests.Routes.BoulderAttemptTests.IsBoulderCompleted_BoulderExperience_GreaterThanBoulderDifficulty_NumberOfCrashPads_EqualTo_RequiredCrashPads_Returns_True&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::550648CF-21A3-4914-A907-D5DF99E486A2::net6.0::ClimbCalculator.Tests.Routes.BoulderAttemptTests.IsBoulderCompleted_BoulderExperience_LessThanBoulderDifficulty_NumberOfCrashPads_EqualTo_RequiredCrashPads_Returns_False&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::550648CF-21A3-4914-A907-D5DF99E486A2::net6.0::ClimbCalculator.Tests.Routes.BoulderAttemptTests.IsBoulderCompleted_BoulderExperience_GreaterThanBoulderDifficulty_NumberOfCrashPads_LessThan_RequiredCrashPads_Returns_False&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
