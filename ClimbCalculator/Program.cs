@@ -12,9 +12,10 @@ namespace ClimbCalculator //entrypoint to application
             Console.WriteLine("sup");
             var nadia = new LeadClimber("nadia", 3, true);
             var tim = new Climber("tim", 8);
-            var ben = new Climber("ben", 2);
+            var ben = new Boulderer("ben", 11, 4);
             var climbers = new Climber[2] {nadia, tim};
             var climbAttempt1 = new ClimbAttempt(14, climbers, "Everest", new ExperienceService());
+            var boulderAttempt2 = new BoulderAttempt(10, "Moulin Rouge", 4, ben);
 
             foreach (var climber in climbers)
             {
@@ -24,6 +25,7 @@ namespace ClimbCalculator //entrypoint to application
             }
             
             Console.WriteLine($"Has the team has completed the climb: {climbAttempt1.IsClimbCompleted()}");
+            Console.WriteLine($"Has the boulderer completed the boulder: {boulderAttempt2.IsBoulderCompleted()}");
             // Console.WriteLine("{0}, {1}",climbAttempt1.Climbers[2].Name, climbAttempt1.NameOfClimb);
         }
     }
