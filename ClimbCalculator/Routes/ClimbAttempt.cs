@@ -69,9 +69,4 @@ public class ClimbAttempt
         var experienceList = Climbers.Select(climber => climber.Experience).ToList();
         return _experienceService.AverageTeamExperience(experienceList) >= Difficulty;
     }
-    
-    public bool IsBoulderCompleted()
-    {
-        
-    }
 }
