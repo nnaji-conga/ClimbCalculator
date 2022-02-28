@@ -15,6 +15,7 @@ namespace ClimbCalculator //entrypoint to application
             var ben = new Climber("ben", 2);
             var climbers = new Climber[2] {nadia, tim};
             var climbAttempt1 = new ClimbAttempt(14, climbers, "Everest", new ExperienceService());
+            var climbAttempt2 = new Boulderer("Gina", 10, 4);
 
             foreach (var climber in climbers)
             {
