@@ -4,4 +4,9 @@
 	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=59ff173d_002D4f28_002D4f04_002D8eb9_002D035564f18007/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AverageTeamExperience_Returns_Average #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;Solution /&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d0dba5de_002D78f2_002D4435_002D992e_002Dc60ddaabafb4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="IsClimbCompleted_ClimberExperience_GreaterThanDifficulty_Returns_False" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::550648CF-21A3-4914-A907-D5DF99E486A2::net6.0::ClimbCalculator.Tests.Routes.ClimbAttemptTests.IsClimbCompleted_ClimberExperience_GreaterThanDifficulty_Returns_False&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
